@@ -14,7 +14,7 @@ This is a template for a Next.js application that uses the NextAuth.js library f
    ```
 
    - `GOOGLE_CLIENT_SECRET` and `GOOGLE_CLIENT_ID`: These are the client secret and client ID obtained from the Google Cloud Console when setting up a Google OAuth application.
-   - `NEXTAUTH_SECRET`: This is a secret key used by NextAuth.js for encryption and signing.
+   - `NEXTAUTH_SECRET`: This is a secret key used by NextAuth.js for encryption and signing.It can be any string, but it's recommended to use a long, random, and secure string for            security purposes.
    - `MONGODB_URI`: The connection string for your MongoDB database, used for session management.
 
 2. **Install Dependencies**: In the terminal, run the following command to install the required dependencies:
